@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 1140px;
+	height: auto;
+	margin: 0 auto;
+	background: url(../photos/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*-----------Main Container----------------*/
+.main-container,.main-singup{
+	width: 350px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 100px;
+	background-color: gray;
+	padding: 5px;
+	border-radius: 10px;
+
+}
+/*-----------Admin Login Text----------------*/
+.admin-login,.sec-page-head{
+	padding: 5px 10px 5px 10px;
+	background-color: #7eff00;
+	border-style: none;
+	border-radius: 5px;
+	text-align: center;
+}
+/*-----------------Login image------------*/
+.log-in-img{
+	height: 100px;
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+}
+/*-------------------- Form Input Aria--------------*/
+.input-aria{
+	padding: 17px 89px 17px 89px;
+	margin-top: 5px;
+	text-align: center;
+	border-style: none;
+	border-radius: 5px;
+}
+/*-------Link------------------*/
+a{
+	text-decoration: none;
+	color: #7eff00;
+}
+/*-----------Forgot Password text--------*/
+.forgat-pass{
+	height: auto;
+	width: auto;
+	float: right;
+	padding: 5px;
+}
+/*---------------Button-----------*/
+.btn{
+	padding: 14px 153px 14px 153px;
+	text-align: center;
+	border-style: none;
+	border-radius: 5px;
+	background-color: #7eff00;
+}
+/*------------Button Hover*/
+.btn:hover{
+	box-shadow: 5px 10px 10px black;
+}
+/*-----------------Sing Up button--------*/
+.sing-up{
+	height: 50px;
+	width: 132px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.forgot-pass{
+	margin-top: 150px;
+}
